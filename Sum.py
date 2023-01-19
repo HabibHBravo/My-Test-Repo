@@ -3,7 +3,7 @@ import time
 start_time = time.time() 
 
 sum = 0 
-for i in range(0,100): 
+for i in range(0,100: 
     sum += i 
     #print(sum) 
  
