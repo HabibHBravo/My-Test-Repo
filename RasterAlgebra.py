@@ -13,7 +13,7 @@ from arcpy.sa import *
 
 # Specify the input raster 
 inRaster = r"C:\PSU\Geog489\Lesson1\Rasters\foxlake" 
-cutoffElevation = 3500
+cutoffElevation = 2000
 
 # Check out the Spatial Analyst extension 
 arcpy.CheckOutExtension("Spatial") 

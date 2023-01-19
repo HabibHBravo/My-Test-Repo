@@ -50,7 +50,7 @@ def mp_handler():
     # Ordinarily we would want all of the rasters I'm filtering by a small set for testing & efficiency 
     # I did this by manually looking up the tile index for the LiDAR and determining an area of interest 
     # tiles ending in 227, 228, 230, 231, 232, 233, 235, 236 
-    wildCardList = set(['227','228','230','231','232','233','235','236']) 
+    wildCardList = set(['227','228','230']) 
  
     # Get a list of rasters in my folder 
     rasters = arcpy.ListRasters("*") 
